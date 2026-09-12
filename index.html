@@ -94,25 +94,6 @@
     max-width:540px;
   }
 
-  /* Background photo (used behind hero and closing sections) */
-  .bg-photo{
-    background-image:
-      linear-gradient(rgba(247,241,230,0.45), rgba(247,241,230,0.45)),
-      url('https://images.pexels.com/photos/35091112/pexels-photo-35091112.jpeg?auto=compress&cs=tinysrgb&w=1600');
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-  }
-  .hero.bg-photo h1,
-  .hero.bg-photo .hero-sub,
-  .hero.bg-photo .kicker{
-    text-shadow: 0 2px 14px rgba(247,241,230,0.9), 0 1px 3px rgba(247,241,230,0.9);
-  }
-  @media (max-width:768px){
-    .bg-photo{ background-attachment: scroll; }
-  }
-
   .hero p{
     font-size:1.1rem;
     color:var(--brown-soft);
@@ -344,7 +325,7 @@
 </head>
 <body>
 
-<section class="hero bg-photo">
+<section class="hero">
   <div class="kicker">Spiritual Wellness Instructor</div>
   <h1>Welcome to Stillness</h1>
   <p class="hero-sub">Where we build our sense of peace inside from devotion to practice. Cultivating a new way of life each day. Creating towards a new tomorrow.</p>
